@@ -1,0 +1,147 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-12T16:59:26.735Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5612800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2315702200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.launchBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9088734100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.navigate_to_CaseUp()"
+            }
+          }
+        ],
+        "line": 494,
+        "name": "verify move and copy functionality with account owner role.",
+        "description": "",
+        "id": "testing-the-file-functionality-of-caseup;verify-move-and-copy-functionality-with-account-owner-role.",
+        "after": [
+          {
+            "result": {
+              "duration": 5989400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 299574600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18008700,
+              "status": "passed"
+            },
+            "line": 495,
+            "name": "user navigate to the caseup baseurl",
+            "match": {
+              "location": "Parallel.LoginTest.user_navigate_to_the_caseup_baseurl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1455862600,
+              "status": "passed"
+            },
+            "line": 496,
+            "name": "login with account owner role",
+            "match": {
+              "location": "Parallel.CreateDepositionTest.login_with_account_owner_role()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33706386300,
+              "status": "passed"
+            },
+            "line": 497,
+            "name": "delete all previous files",
+            "match": {
+              "location": "Parallel.InviteCollaboratorTest.delete_all_previous_files()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2682124100,
+              "status": "passed"
+            },
+            "line": 498,
+            "name": "click on create new button",
+            "match": {
+              "location": "Parallel.CreateDepositionTest.click_on_create_new_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 513745900,
+              "status": "passed"
+            },
+            "line": 499,
+            "name": "enter witness name",
+            "match": {
+              "location": "Parallel.CreateDepositionTest.enter_witness_name()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Files"
+          }
+        ]
+      }
+    ],
+    "name": "Testing the file functionality of caseup",
+    "description": "",
+    "id": "testing-the-file-functionality-of-caseup",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Parallel/Files.feature",
+    "tags": [
+      {
+        "name": "@Files",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
